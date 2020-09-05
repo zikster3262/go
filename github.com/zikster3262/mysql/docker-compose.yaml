@@ -1,0 +1,11 @@
+version: '3'
+services:
+    db:
+      image: mysql
+      environment:
+        MYSQL_DATABASE: atc
+        MYSQL_ROOT_PASSWORD: atc
+        MYSQL_PASSWORD: atc
+        MYSQL_USER: atc
+      ports:
+        - 3306:3306
